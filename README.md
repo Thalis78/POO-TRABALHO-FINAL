@@ -20,12 +20,12 @@ O projeto segue a seguinte organização:
 
 ## Funcionalidades
 
-✅ Criar perfis com apelido, email, emoji e status (ativo/inativo)  
-✅ Adicionar amigos e enviar pedidos de amizade  
-✅ Aceitar ou recusar solicitações de amizade  
-✅ Criar publicações e permitir interações  
-✅ Persistência dos dados em **JSON** para manter informações entre execuções  
-✅ Simulação de um **perfil logado**, permitindo que o usuário realize ações como se estivesse em uma rede social real
+- ✅ Criar perfis com apelido, email, emoji e status (ativo/inativo)
+- ✅ Adicionar amigos e enviar pedidos de amizade
+- ✅ Aceitar ou recusar solicitações de amizade
+- ✅ Criar publicações e permitir interações
+- ✅ Persistência dos dados em **JSON** para manter informações entre execuções
+- ✅ Simulação de um **perfil logado**, permitindo que o usuário realize ações como se estivesse em uma rede social real
 
 ---
 
