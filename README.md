@@ -103,20 +103,29 @@ Os dados da rede social são armazenados no arquivo **`sistema_rede_social.json`
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/LincolnMatheus97/ADS-IFPI/tree/2a4260bf02d1caf639be3e8fc59cb240aa37612f/Exercicios_Poo/Atividade_Final
+   git clone https://github.com/Thalis78/POO-TRABALHO-FINAL.git
    ```
 
 2. Abra o projeto em sua IDE favorita (Eclipse, IntelliJ, VS Code...)
 
-3. Certifique-se de que o **Maven** está configurado corretamente e baixe as dependências:
+3. Certifique-se de ter o Java 23 instalado:
+   Este projeto foi desenvolvido para a versão Java 23. Para verificar sua versão, execute o seguinte comando no terminal:
 
    ```sh
-   mvn clean install
+    java -version
    ```
 
-4. Execute a classe `Main.java` para iniciar o sistema.
+4. Instale as dependências com o Maven:
 
-5. O sistema criará automaticamente o arquivo **`sistema_rede_social.json`** caso ele não exista.
+Certifique-se de que o Maven está configurado corretamente na sua IDE. Para instalar as dependências do projeto, execute:
+
+```sh
+ mvn clean install
+```
+
+5. Execute a classe Main.java para iniciar o sistema.
+
+6. O sistema criará automaticamente o arquivo **`sistema_rede_social.json`** caso ele não exista.
 
 ---
 
