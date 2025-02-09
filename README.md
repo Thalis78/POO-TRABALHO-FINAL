@@ -117,11 +117,13 @@ Os dados da rede social são armazenados no arquivo **`sistema_rede_social.json`
 
 4. Instale as dependências com o Maven:
 
-Certifique-se de que o Maven está configurado corretamente na sua IDE. Para instalar as dependências do projeto, execute:
+   Certifique-se de que o **Maven** está configurado corretamente na sua IDE. Para instalar as dependências do projeto, execute:
 
-    ```sh
-    mvn clean install
-    ```
+   ```sh
+   mvn clean install
+
+
+   ```
 
 5. Execute a classe Main.java para iniciar o sistema.
 
