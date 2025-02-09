@@ -1,0 +1,39 @@
+{
+  "perfil" : [ {
+    "apelido" : "Ely",
+    "id" : 1,
+    "status" : true,
+    "emoji" : "\uD83D\uDE04",
+    "email" : "ely@gmail.com",
+    "amigos" : [ ]
+  }, {
+    "apelido" : "Thalisson",
+    "id" : 2,
+    "status" : true,
+    "emoji" : "\uD83D\uDE00",
+    "email" : "thalisson@gmail.com",
+    "amigos" : [ ]
+  }, {
+    "apelido" : "Lincoln",
+    "id" : 3,
+    "status" : true,
+    "emoji" : "\uD83D\uDE1E",
+    "email" : "lincoln@gmail.com",
+    "amigos" : [ ]
+  }, {
+    "apelido" : "Natiele",
+    "id" : 4,
+    "status" : false,
+    "emoji" : "\uD83D\uDE03",
+    "email" : "natiele@gmail.com",
+    "amigos" : [ ]
+  } ],
+  "pedidosDeAmizade" : [ ],
+  "publicacao" : [ {
+    "id" : 1,
+    "conteudo" : "Foto no Trabalho",
+    "dataPublicacao" : "2025-02-09T17:09:46.957+00:00",
+    "perfilAssociado" : "Thalisson",
+    "Interacoes" : [ ]
+  } ]
+}
