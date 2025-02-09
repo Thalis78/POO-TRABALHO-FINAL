@@ -134,7 +134,7 @@ Os dados da rede social são armazenados no arquivo **`sistema_rede_social.json`
 ## Link Video Demostrativo
 
 <a href="https://youtu.be/pexVjD5l8l0">
-  <img src="https://img.icons8.com/?size=100&id=108794&format=png&color=000000" alt="Video Demonstrativo" width="40" />
+  <img src="https://img.icons8.com/?size=100&id=108794&format=png&color=000000" alt="Video Demonstrativo" width="50" />
 </a><br>
 Clique no ícone acima para assistir ao vídeo demonstrativo.
 
