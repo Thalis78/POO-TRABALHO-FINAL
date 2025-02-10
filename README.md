@@ -59,38 +59,48 @@ Os dados da rede social são armazenados no arquivo **`sistema_rede_social.json`
 
 ```json
 {
-  "perfil": [
-    {
-      "apelido": "Lincoln",
-      "email": "lin@email.com",
-      "status": true,
-      "emoji": "😞",
-      "amigos": ["Thalisson"],
-      "id": 1
-    },
-    {
-      "apelido": "Thalisson",
-      "email": "tha@email.com",
-      "status": true,
-      "emoji": "😍",
-      "amigos": ["Lincoln"],
-      "id": 2
-    }
-  ],
-  "pedidosDeAmizade": [],
   "publicacao": [
     {
       "id": 1,
-      "conteudo": "foto em casa",
-      "perfilAssociado": "Lincoln",
-      "dataPublicacao": "2025-01-31T21:35:29.336+00:00",
+      "perfilAssociado": "Thalisson",
+      "dataPublicacao": "2025-02-09T17:09:46.957+00:00",
+      "conteudo": "Foto no Trabalho",
       "Interacoes": [
         {
           "id": 1,
-          "tipo": "CURTIR",
-          "perfilAutor": "Thalisson"
+          "perfilAutor": "Thalisson",
+          "tipo": "NAOCURTIR"
+        },
+        {
+          "id": 2,
+          "perfilAutor": "Natiele",
+          "tipo": "SURPRESA"
         }
       ]
+    }
+  ],
+  "perfil": [
+    {
+      "apelido": "Ely",
+      "id": 1,
+      "status": true,
+      "email": "ely@gmail.com",
+      "emoji": "\uD83D\uDE04",
+      "amigos": []
+    },
+    {
+      "apelido": "Thalisson",
+      "id": 2,
+      "status": true,
+      "email": "thalisson@gmail.com",
+      "emoji": "\uD83D\uDE00",
+      "amigos": []
+    }
+  ],
+  "pedidosDeAmizade": [
+    {
+      "perfilSolicitante": "Thalisson",
+      "perfilSolicitado": "Ely"
     }
   ]
 }
