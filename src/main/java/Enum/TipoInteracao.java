@@ -2,7 +2,7 @@ package Enum;
 
 public enum TipoInteracao {
     CURTIR,
-    NAO_CURTIR,
+    NAOCURTIR,
     RISO,
     SURPRESA
 }

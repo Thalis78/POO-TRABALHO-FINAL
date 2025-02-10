@@ -1,5 +1,8 @@
 package Models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Date;
 
 public class Publicacao {
@@ -52,6 +55,11 @@ public class Publicacao {
 
     public PerfilAvancado getPerfilAssociado() {
         return _perfilAssociado;
+    }
+
+    @JsonProperty("perfilAssociado")
+    public String getPerfilAssociadoApelido() {
+        return _perfilAssociado != null ? _perfilAssociado.getApelido() : null;
     }
 
     public void setPerfilAssociado(PerfilAvancado _perfilAssociado) {
