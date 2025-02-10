@@ -1,6 +1,7 @@
 package Models;
 
 import Enum.TipoInteracao;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Interacao {
     // Atributos
@@ -40,6 +41,11 @@ public class Interacao {
 
     public PerfilAvancado getPerfilAutor() {
         return _perfilAutor;
+    }
+
+    @JsonProperty("perfilAutor")
+    public String getPerfilAutorApelido() {
+        return _perfilAutor != null ? _perfilAutor.getApelido() : null;
     }
 
     public void setPerfilAutor(PerfilAvancado perfilAutor) {

@@ -277,10 +277,10 @@ public class App {
                 if (!jaInteragiu) {
                     String respostaInteracao = "";
                     while (true) {
-                        respostaInteracao = io.lerString("\n\t\rDeseja: CURTIR, NAO_CURTIR, SURPRESA ou RISO ?").toUpperCase();
+                        respostaInteracao = io.lerString("\n\t\rDeseja: CURTIR, NAOCURTIR, SURPRESA ou RISO ?").toUpperCase();
 
-                        if (respostaInteracao.isEmpty() || !respostaInteracao.matches("CURTIR|NAO-CURTIR|SURPRESA|RISO")) {
-                            io.mostrarMensagem("\n\t\rEntrada inválida! Por favor, insira uma opção válida (CURTIR, NAO_CURTIR, SURPRESA ou RISO).");
+                        if (respostaInteracao.isEmpty() || !respostaInteracao.matches("CURTIR|NAOCURTIR|SURPRESA|RISO")) {
+                            io.mostrarMensagem("\n\t\rEntrada inválida! Por favor, insira uma opção válida (CURTIR, NAOCURTIR, SURPRESA ou RISO).");
                         } else {
                             break;
                         }

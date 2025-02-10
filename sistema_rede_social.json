@@ -1,39 +1,62 @@
 {
+  "publicacao" : [ {
+    "id" : 1,
+    "perfilAssociado" : "Thalisson",
+    "dataPublicacao" : "2025-02-09T17:09:46.957+00:00",
+    "conteudo" : "Foto no Trabalho",
+    "Interacoes" : [ {
+      "id" : 1,
+      "perfilAutor" : "Thalisson",
+      "tipo" : "NAOCURTIR"
+    }, {
+      "id" : 2,
+      "perfilAutor" : "Natiele",
+      "tipo" : "SURPRESA"
+    } ]
+  }, {
+    "id" : 2,
+    "perfilAssociado" : "Natiele",
+    "dataPublicacao" : "2025-02-10T00:32:26.166+00:00",
+    "conteudo" : "foto no Shopping",
+    "Interacoes" : [ ]
+  } ],
   "perfil" : [ {
     "apelido" : "Ely",
     "id" : 1,
     "status" : true,
-    "emoji" : "\uD83D\uDE04",
     "email" : "ely@gmail.com",
+    "emoji" : "\uD83D\uDE04",
     "amigos" : [ ]
   }, {
     "apelido" : "Thalisson",
     "id" : 2,
     "status" : true,
-    "emoji" : "\uD83D\uDE00",
     "email" : "thalisson@gmail.com",
+    "emoji" : "\uD83D\uDE00",
     "amigos" : [ ]
   }, {
     "apelido" : "Lincoln",
     "id" : 3,
     "status" : true,
-    "emoji" : "\uD83D\uDE1E",
     "email" : "lincoln@gmail.com",
+    "emoji" : "\uD83D\uDE1E",
     "amigos" : [ ]
   }, {
     "apelido" : "Natiele",
     "id" : 4,
-    "status" : false,
-    "emoji" : "\uD83D\uDE03",
+    "status" : true,
     "email" : "natiele@gmail.com",
+    "emoji" : "\uD83D\uDE03",
     "amigos" : [ ]
   } ],
-  "pedidosDeAmizade" : [ ],
-  "publicacao" : [ {
-    "id" : 1,
-    "conteudo" : "Foto no Trabalho",
-    "dataPublicacao" : "2025-02-09T17:09:46.957+00:00",
-    "perfilAssociado" : "Thalisson",
-    "Interacoes" : [ ]
+  "pedidosDeAmizade" : [ {
+    "perfilSolicitante" : "Thalisson",
+    "perfilSolicitado" : "Ely"
+  }, {
+    "perfilSolicitante" : "Thalisson",
+    "perfilSolicitado" : "Lincoln"
+  }, {
+    "perfilSolicitante" : "Natiele",
+    "perfilSolicitado" : "Thalisson"
   } ]
 }
